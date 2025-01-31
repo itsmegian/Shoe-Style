@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samba Shoe Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shoe Style</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+    
+    <section id="home" class="home">
+        <h2>Welcome to Shoe Style</h2>
+        <p>Your one-stop destination for the best shoes in town!</p>
+    </section>
+
+    <h1 class="pheading"> Our Latest <span>Products</span></h1>
+
+    <section id="shop" class="shop">
+        <div class="product"  data-name="Adidas Samba OG Black and Gold" data-price="50">
+            <img src="Adidas Samba OG Black and Gold.jpg" alt="Product Image 1">
+            <h3>Adidas Samba OG Black and Gold</h3>
+            <p>Price: $50</p>
+            <div class="rating"> (5.0) ★★★★★</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Adidas Samba OG" data-price="60">
+            <img src="Adidas Samba OG, Men's.jpg" alt="Product Image 2">
+            <h3>Adidas Samba OG</h3>
+            <p>Price: $60</p>
+            <div class="rating"> (5.0) ★★★★★</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      
+        <div class="product" data-name="Adidas Samba Mystery Brown" data-price="70">
+            <img src="Adidas Samba Trainers Mystery Brown.jpg" alt="Product Image 4">
+            <h3>Adidas Samba Mystery Brown</h3>
+            <p>Price: $70</p>
+            <div class="rating">(5.0) ★★★★★ </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Adidas Samba OG" data-price="45">
+            <img src="Adidas Samba OG.jpg" alt="Product Image 3">
+            <h3>Adidas Samba OG</h3>
+            <p>Price: $45</p>
+            <div class="rating">(5.0) ★★★★★ </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Lionel Messi x Inter Miami CF x adidas Samba" data-price="55">
+            <img src="Lionel Messi x Inter Miami CF x adidas Samba.jpg" alt="Product Image 5">
+            <h3>Lionel Messi x Inter Miami CF x adidas Samba</h3>
+            <p>Price: $55</p>
+            <div class="rating">(5.0) ★★★★★ </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Mens Adidas Samba OG" data-price="80">
+            <img src="Mens Adidas Samba OG.webp" alt="Product Image 6">
+            <h3>Mens Adidas Samba OG</h3>
+            <p>Price: $80</p>
+            <div class="rating">(5.0) ★★★★★ </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Samba “Cardinal Red”" data-price="20">
+            <img src="Samba “Cardinal Red”.jpg" alt="Product Image 7">
+            <h3>Samba “Cardinal Red”</h3>
+            <p>Price: $20</p>
+            <div class="rating"> (5.0) ★★★★★</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Sporty & Rich x adidas Samba OG" data-price="65">
+            <img src="Sporty & Rich x adidas Samba OG.jpg" alt="Product Image 8">
+            <h3>Sporty & Rich x adidas Samba OG</h3>
+            <p>Price: $65</p>
+            <div class="rating"> (5.0) ★★★★★</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h1>Contact <span>Us</span></h1>
+        <p>We'd love to hear from you! Reach out via our contact form or social media.</p>
+
+        <div class="contact-container">
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <p><strong>📍 Location:</strong> 123 Fashion Street, New York, USA</p>
+                <p><strong>📞 Phone:</strong> <a href="tel:09306994019">(+63) 9123456789</a></p>
+                <p><strong>✉ Email:</strong> <a href="mailto:contact@gmail.com">contact@gmail.com</a></p>
+            </div>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100087914707341" target="_blank"><img src="fb-icon.png" alt="error"></a>
+                <a href="https://www.tiktok.com/@tzn3832?_t=ZS-8tVpO2RbV7S&_r=1" target="_blank"><img src="tiktok-icon.png" alt="error"></a>
+                <a href="https://www.instagram.com/iza_tzn?igsh=ZzIwZ3VveHJrNDl2" target="_blank"><img src="ig-icon.png" alt="error"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="mission">
+            <p><strong>Our Mission:</strong>Our mission is to provide high-quality, stylish, and comfortable footwear that caters to every customer's unique needs. We strive to inspire confidence and self-expression through our diverse range of shoes. By combining affordability and durability, we aim to make premium footwear accessible to everyone. Our commitment to exceptional customer service ensures a seamless shopping experience. At Elite Sole, we believe that the right pair of shoes can empower you to take on the world.</p>
+        </div>
+        <div class="vision">
+            <p><strong>Our Vision:</strong>Our vision is to become the most trusted and recognized shoe retailer locally and globally. We aspire to set the standard for innovation and sustainability in the footwear industry. By fostering strong relationships with our customers, we aim to create a loyal community of shoe lovers. We envision a future where every step taken in our shoes leaves a positive impact on both people and the planet. At  Elite Sole, we dream of empowering individuals one pair of shoes at a time.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025  Shoe Style. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let cart = [];
+
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', function() {
+        let product = this.parentElement;
+        let name = product.getAttribute('data-name');
+        let price = parseFloat(product.getAttribute('data-price'));
+        
+        cart.push({ name, price });
+        updateCart();
+    });
+});
+
+function updateCart() {
+    let cartList = document.getElementById('cart-items');
+    let cartTotal = document.getElementById('cart-total');
+    let cartCount = document.getElementById('cart-count');
+    
+    cartList.innerHTML = '';
+    let total = 0;
+    cart.forEach(item => {
+        let li = document.createElement('li');
+        li.textContent = `${item.name} - $${item.price}`;
+        cartList.appendChild(li);
+        total += item.price;
+    });
+    
+    cartTotal.textContent = total;
+    cartCount.textContent = cart.length;
+}
+    </script>
+</body>
+</html>
